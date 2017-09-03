@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity{
         Button play = (Button) findViewById(R.id.btn_play);
 
         play.setOnClickListener(new View.OnClickListener() {
+
             public void onClick(View v) {
                 // 서비스 시작하기
                 Log.d("test", "Activity Start");
