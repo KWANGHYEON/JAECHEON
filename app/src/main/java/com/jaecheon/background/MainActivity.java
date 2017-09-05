@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
+
         Button stop = (Button) findViewById(R.id.btn_stop);
 
         stop.setOnClickListener(new View.OnClickListener() {
