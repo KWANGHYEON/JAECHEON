@@ -23,7 +23,6 @@ public class MyStartAndroidService extends Service {
         Log.d("test", "서비스의 onCreate");
         mp = MediaPlayer.create(this, R.raw.kalimba); // 노래 제목
         mp.setLooping(false); // 반복재생
-
     }
 
     @Override
@@ -40,6 +39,5 @@ public class MyStartAndroidService extends Service {
         super.onDestroy();
         mp.stop();
         Log.d("test", "서비스의 onDestroy");
-
     }
 }
